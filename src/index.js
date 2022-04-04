@@ -10,7 +10,6 @@ const cardRank = document.querySelector('.card-rank');
 const deck = new Deck();
 
 const card = deck.draw();
-console.log(card);
 
 cardRank.textContent = card.rank;
 
